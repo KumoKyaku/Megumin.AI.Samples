@@ -12,7 +12,7 @@ public class MoveTo : BTActionNode<NavMeshAgent>
 
     protected override void OnEnter()
     {
-        Debug.LogError($"MyAgent : {MyAgent}");
+        Debug.Log($"MoveTo OnEnter    MyAgent : {MyAgent}  Des : {Des.Value.name}");
         MyAgent.SetDestination(Des.Value.position);
         this.Transform.LookAt(Des.Value);
     }
@@ -22,13 +22,13 @@ public class MoveTo : BTActionNode<NavMeshAgent>
         var current = Vector3.Scale(Transform.position, new Vector3(1, 0, 1));
         var des = Vector3.Distance(current, Des.Value.position);
 
-        Debug.Log($"Distance : {des}");
+        //Debug.Log($"Distance : {des}");
         if (des > 0.25f)
         {
             return Status.Running;
         }
 
-        Debug.LogError($"MoveTo Succeeded: {Des.Value.name}£º{Des.Value.position}");
+        Debug.Log($"MoveTo Succeeded: {Des.Value.name} : {Des.Value.position}");
         return Status.Succeeded;
     }
 }
