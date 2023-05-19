@@ -22,6 +22,11 @@ public class Cat : MonoBehaviour, IAnimal
         Debug.Log("Cat Wow!");
     }
 
-    public string Name { get; } = "Tom";
+    public string Name { get; set; } = "Tom";
     public int Age { get; } = 5;
+
+    public int GetAge()
+    {
+        return Age;
+    }
 }
