@@ -1,5 +1,65 @@
 {
   "dependencies": {
+    "com.megumin.ai": {
+      "version": "file:com.megumin.ai",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.megumin.common": "1.0.3",
+        "com.megumin.binding": "1.1.0",
+        "com.megumin.serialization": "1.1.0",
+        "com.unity.settings-manager": "1.0.3"
+      }
+    },
+    "com.megumin.ai.behaviortree": {
+      "version": "file:com.megumin.ai.behaviortree",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.megumin.common": "1.0.3",
+        "com.megumin.binding": "1.1.0",
+        "com.megumin.serialization": "1.1.0",
+        "com.unity.settings-manager": "1.0.3",
+        "com.megumin.ai": "1.2.0"
+      }
+    },
+    "com.megumin.binding": {
+      "version": "file:com.megumin.binding",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.megumin.common": "1.0.3",
+        "com.megumin.serialization": "1.1.0"
+      }
+    },
+    "com.megumin.common": {
+      "version": "file:com.megumin.common",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.megumin.perception": {
+      "version": "file:com.megumin.perception",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.megumin.common": "1.0.3"
+      }
+    },
+    "com.megumin.reflection": {
+      "version": "file:com.megumin.reflection",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.megumin.serialization": {
+      "version": "file:com.megumin.serialization",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.megumin.common": "1.0.3"
+      }
+    },
     "com.unity.asset-store-tools": {
       "version": "file:com.unity.asset-store-tools",
       "depth": 0,
