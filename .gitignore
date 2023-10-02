@@ -84,6 +84,15 @@ AISamples/*.sln
 
 
 
-AISamples/Packages/com.unity.shadergraph@12.1.8/
+AISamples/Packages/com.unity.shadergraph*/
 AISamples/Assets/Megumin/
 AISamples/Packages/com.megumin.*/
+
+*/*.csproj
+*/*.sln
+!*/Packages
+*/Assets/StarterAssets/
+*/Packages/com.unity.shadergraph*/
+*/Assets/Megumin/
+*/Packages/com.megumin.*/
+
