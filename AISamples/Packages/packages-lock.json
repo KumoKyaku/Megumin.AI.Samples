@@ -16,7 +16,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.megumin.common": "1.0.3",
+        "com.megumin.common": "1.0.4",
         "com.megumin.binding": "1.1.0",
         "com.megumin.serialization": "1.1.0",
         "com.unity.settings-manager": "1.0.3",
@@ -43,7 +43,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.megumin.common": "1.0.3"
+        "com.megumin.common": "1.0.4"
       }
     },
     "com.megumin.reflection": {
@@ -59,12 +59,6 @@
       "dependencies": {
         "com.megumin.common": "1.0.3"
       }
-    },
-    "com.unity.asset-store-tools": {
-      "version": "file:com.unity.asset-store-tools",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
     },
     "com.unity.burst": {
       "version": "1.8.4",
